@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - JASÍS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="../img/logo.jpg" alt="Logo JASÍS">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="login-registro">
+            <div class="container">
+                <h2>Login y Registro</h2>
+                <div class="form-container">
+                    <!-- Formulario de Login -->
+                    <form id="login-form" action="#">
+                        <h3>Para Empleados</h3>
+                        <label for="username">Usuario:</label>
+                        <input type="text" id="username" name="username" required>
+                        <label for="password">Contraseña:</label>
+                        <input type="password" id="password" name="password" required>
+                        <button type="submit">Iniciar Sesión</button>
+                    </form>
+
+                    <!-- Formulario de Registro -->
+                    <form id="registro-form" action="#">
+                        <h3>Empleado Nuevo o No Registrado</h3>
+                        <label for="cedula">Número de Cédula:</label>
+                        <input type="text" id="cedula" name="cedula" required>
+                        <label for="id-carnet">ID del Carnet:</label>
+                        <input type="text" id="id-carnet" name="id-carnet" required>
+                        <button type="submit">Registrar</button>
+                        <p class="registro-error">Datos incorrectos. Contacte con la empresa.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="datos-contacto">
+            <div class="container">
+                <h2>Datos de Contacto</h2>
+                <ul>
+                    <li><strong>Dirección:</strong> Bogotá, Colombia</li>
+                    <li><strong>Área de Servicio:</strong> Bogotá, Colombia</li>
+                    <li><strong>Celular:</strong> 321 4695729</li>
+                    <li><strong>Correo Electrónico:</strong> <a href="mailto:jasis.centrodejardineria@gmail.com">jasis.centrodejardineria@gmail.com</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 JASÍS - Centro de Jardinería. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
